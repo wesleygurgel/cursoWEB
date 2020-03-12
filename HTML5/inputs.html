@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>Meu Site</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
+        <script src="js/html5shiv.js"></script>
+    </head>
+
+    <body>
+        
+       <form>
+            <!-- Associar label com os elementos - Boa prática -->
+
+            <label for="nome">Nome</label>
+            <input autofocus type="text" required id="nome"> 
+            <br><br>
+            
+            
+            <!-- Novos Inputs e atributos HTML 5 -->
+            <!-- Email -->
+            <label for="email">Email</label>
+            <input type="email" placeholder="example@example.com.br" id="email"> 
+            <br><br>
+            
+            <!-- Número -->
+            <label for="numero">Número</label>
+            <input size="10px" type="number" min="5" max="10" id="numero" step="1"> 
+            <br><br>
+            
+            <!-- URL -->
+            <label for="url">URL</label>
+            <input type="url" placeholder="https://www.example.com" id="url"> 
+            <br><br> 
+            
+            <!-- Pesquisar -->
+            <label for="pesquisa">Pesquisar</label>
+            <input type="search" placeholder="Digite algo..." id="pesquisa"> 
+            <br><br>
+
+             <!-- Range -->
+             <label for="range">Range</label>
+             <input type="range" id="range" min="1" max="10" value="2" > 
+             <br><br>
+
+             <!-- Date -->
+             <label for="data">Data</label>
+             <input type="date" id="data"  > 
+             <br><br> 
+             
+             <!-- Cor -->
+             <label for="cor">Cor</label>
+             <input type="color" id="cor" > 
+             <br><br>
+           
+
+
+
+
+
+
+            <input type="submit" value="Enviar!">
+
+       </form>
+        
+    </body>
+
+</html>
